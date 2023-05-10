@@ -5,7 +5,8 @@
 
 .bmi__content {
     background: linear-gradient(111.29deg, rgba(255, 255, 255, 0.53) -1.83%, rgba(255, 255, 255, 0) 109.95%);
-    width: 60%;
+    width: 65%;
+    padding: 16px
 }
 
 .form-control {
@@ -13,7 +14,8 @@
     transition: all .5s;
 }
 
-.form-control:hover, .form-control:focus {
+.form-control:hover,
+.form-control:focus {
     border-color: #9d33f3;
     box-shadow: none;
 }
@@ -39,7 +41,24 @@ form .btn:hover {
     from {
         transform: scale(0.5);
     }
+
     to {
         transform: scale(1);
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+    .bmi {
+        height: auto;
+        padding: 48px;
+    }
+
+    .bmi__content {
+        width: 100%;
+        
+    }
+
+    form .btn {
+        width: 100%;
     }
 }

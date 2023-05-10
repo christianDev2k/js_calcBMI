@@ -14,24 +14,27 @@
 
 <body>
     <div class="bmi d-flex align-items-center">
-        <div class="bmi__content mx-auto border rounded-5 p-5 border-white">
-            <div class="row">
-                <div class="col-6 text-white">
-                    <h1>Calculate your BMI</h1>
-                    <p>Body Mass Index (BMI) is calculated using your height and weight and is approximately related to
-                        body fat percentage.</p>
-                    <form action="">
-                        <input type="text" placeholder="Height in CM" required id="bmi__height"
-                            class="form-control bg-transparent text-white">
-                        <input type="text" placeholder="Weight in KG" required id="bmi__weight"
-                            class="form-control bg-transparent text-white mt-3">
-                        <button id="btn__result" type="button"
-                            class="btn rounded-3 mt-4 fs-4 fw-normal py-2 px-4 text-white">Calculate</button>
-                    </form>
-                </div>
-                <div class="col-6 d-flex align-items-center">
-                    <div class="text-center result__area" id="output__area">
-                        <img src="./img/bmi.svg" alt="" class="w-75">
+        <div class="container">
+            <div class="bmi__content mx-auto border rounded-5 p-lg-5 border-white">
+                <div class="row">
+                    <div class="col-12 col-lg-6 text-white">
+                        <h1>Calculate your BMI</h1>
+                        <p>Body Mass Index (BMI) is calculated using your height and weight and is approximately related
+                            to
+                            body fat percentage.</p>
+                        <form action="">
+                            <input type="text" placeholder="Height in CM" required id="bmi__height"
+                                class="form-control bg-transparent text-white">
+                            <input type="text" placeholder="Weight in KG" required id="bmi__weight"
+                                class="form-control bg-transparent text-white mt-3">
+                            <button id="btn__result" type="button"
+                                class="btn rounded-3 mt-4 fs-4 fw-normal py-2 px-4 text-white">Calculate</button>
+                        </form>
+                    </div>
+                    <div class="col-12 col-lg-6 mt-4 mt-lg-0 d-flex align-items-center">
+                        <div class="text-center result__area" id="output__area">
+                            <img src="./img/bmi.svg" alt="" class="w-75">
+                        </div>
                     </div>
                 </div>
             </div>
