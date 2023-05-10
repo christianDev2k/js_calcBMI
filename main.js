@@ -22,7 +22,6 @@ btnResult.addEventListener('click', function (e) {
     }
     else {
         if (result < 18.5) {
-            console.log('vap if');
             outputArea.innerHTML = `
                 <img src="./img/body-1.png" alt="img" class="w-100">
                 <p class="mb-0 text-white">Under weight : ${result.toFixed(2)}</p>
