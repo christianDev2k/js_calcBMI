@@ -1,0 +1,45 @@
+.bmi {
+    height: 100vh;
+    background-image: linear-gradient(to left, #9d33f3, #8d33f3);
+}
+
+.bmi__content {
+    background: linear-gradient(111.29deg, rgba(255, 255, 255, 0.53) -1.83%, rgba(255, 255, 255, 0) 109.95%);
+    width: 60%;
+}
+
+.form-control {
+    padding: 14px;
+    transition: all .5s;
+}
+
+.form-control:hover, .form-control:focus {
+    border-color: #9d33f3;
+    box-shadow: none;
+}
+
+.form-control::placeholder {
+    color: white;
+}
+
+form .btn {
+    background: linear-gradient(111.29deg, rgba(255, 255, 255, 0.53) -1.83%, rgba(255, 255, 255, 0) 109.95%);
+    border: 1px solid #fff;
+}
+
+form .btn:hover {
+    border-color: #9d33f3;
+}
+
+.result__area img {
+    animation: scaleIn .5s ease-in-out;
+}
+
+@keyframes scaleIn {
+    from {
+        transform: scale(0.5);
+    }
+    to {
+        transform: scale(1);
+    }
+}
